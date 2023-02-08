@@ -1,0 +1,382 @@
+/* Font used all over the site is 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+
+/* Colors used all over the site are: #6F4027, #955635, bisque, black and white */
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.navbar {
+    /* class used in all pages - navigation bar */
+    display: flex;
+    height: 100px;
+    width: 100%;
+    border-bottom: solid 1.5px #6F4027;
+    border-top: solid 1.5px #6F4027;
+    padding: 0%;
+    margin: 0%;
+}
+
+.navitems {
+    /* class used in all pages - navigation bar */
+    flex-direction: row;
+    width: 150px;
+    list-style: none;
+    align-self: center;
+    text-decoration: none;
+    font-size: 16pt;
+    font-weight: lighter;
+    text-align: center;
+    margin: auto;
+}
+
+.navitems a {
+    /* class used in all pages - navigation bar */
+    color: #955635;
+    text-decoration: none;
+}
+
+.socialbar {
+    /* class used in all pages - navigation bar */
+    display: flex;
+    width: 80px;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.socialicons {
+    /* class used in all pages - navigation bar */
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+    margin-left: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #955635;
+    font-weight: normal;
+    letter-spacing: 15pt;
+    align-self: center;
+    vertical-align: middle;
+}
+
+h2 {
+    text-align: center;
+    color: #955635;
+    font-weight: lighter;
+    align-self: center;
+    vertical-align: middle;
+}
+
+.contentsection {
+    /* class used for the Content of home page */
+    border: #6F4027 0.5px solid;
+    padding: 20px;
+}
+
+.banner_container {
+    /* class used for the images banner on the home page */
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    margin: -10px 0 0 -10px;
+
+}
+
+.banner_boxes {
+    /* class used for the images banner on the home page */
+    flex-direction: row;
+    width: 20%;
+    padding: 0px;
+    justify-content: space-evenly;
+    display: inline-block;
+    margin: 10px 0 0 10px;
+    flex-grow: 1;
+    height: 385px;
+    text-align: center;
+}
+
+.order_text_home {
+    /* class used for the images banner on the home page - the text box */
+    font-size: 28pt;
+    text-align: center;
+    vertical-align: text-top;
+    color: #ffffff;
+    height: 200px;
+}
+
+.text_container {
+    /* class used for the images banner on the home page - the text box */
+    background-color: #6F4027;
+    width: 300px;
+}
+
+.order_button a {
+    /* class used for the images banner on the home page - order now link */
+    text-decoration: none;
+    font-style: normal;
+    color: #6F4027;
+}
+
+.order_button {
+     /* class used for the images banner on the home page - order now button */
+    height: 80px;
+    width: 200px;
+    background-color: bisque;
+    border: none;
+    font-size: 16pt;
+}
+
+button :hover {
+    /* class used for the images banner on the home page - order now link */
+    color: #6F4027;
+}
+
+h3 {
+    text-align: center;
+    font-size: 18pt;
+    font-weight: normal;
+    letter-spacing: 5pt;
+    align-self: center;
+    background-color: bisque;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: #6F4027 solid 0.5px;
+}
+
+.subscribe {
+    /* class for the subscribe section on all pages */
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18pt;
+    color: #6F4027;
+    font-weight: lighter;
+}
+
+.input-email {
+    /* class for the subscribe section on all pages */
+    font-size: 16pt;
+    width: 500px;
+    height: 50px;
+    padding: 0px;
+    border: 0.3px solid;
+}
+
+/* placholder text properties */
+::placeholder {
+    color: black;
+    opacity: 50%;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: black;
+    opacity: 50%;
+    /* Firefox */
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: black;
+    font-weight: bolder;
+    opacity: 50%;
+    /* Firefox */
+}
+
+.subscribe_button {
+    /* class for the subscribe section on all pages */
+    height: 50px;
+    width: 500px;
+    background-color: #6F4027;
+    border: none;
+    font-size: 18pt;
+    color:bisque;
+    margin-top: 10px;
+}
+
+.subscribe_button a {
+    /* class for the subscribe section on all pages */
+    text-decoration: none;
+    color: bisque;
+}
+
+hr {
+    width: 100px;
+}
+
+.intro_text {
+/* class for the intro text in few pages     */
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.round_images_container {
+/* for About page */
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_section {
+/* for About page */
+    margin: 20px;
+}
+
+.round_images {
+/* for About page */
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.round_images img {
+    /* for About page */
+    border-radius: 100px;
+}
+
+.about_text {
+    /* for About page */
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    margin-top: 10px;
+}
+
+.order_section {
+/* Class using for the Order page */
+    margin: 20px;
+}
+
+.checkboxinput {
+    /* Class using for the Order page */
+    height: 10px;
+    padding: 0px;
+    border: 0.3px solid;
+    width: auto;
+}
+
+.order_text {
+   /* Class using for the Order page */
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    /* width: 600px; */
+    margin-top: 10px;
+    color: #6F4027;
+    font-size: small;
+}
+
+.submitorder {
+    /* Class using for the Order page */
+    height: 30px;
+    width: 100px;
+    background-color: #6F4027;
+    color: bisque;
+    border: none;
+    font-size: 10pt;
+    align-self: center;
+}
+
+.submitorder a {
+    /* Class using for the Order page */
+    text-decoration: none;
+    color: bisque;
+}
+
+.dropdown {
+    /* Class using for the Order page */
+    color: #6F4027;
+}
+
+label {
+    /* Class using for the Order page */
+    font-size: medium;
+}
+
+.radiobutton {
+    /* Class using for the Order page */
+    height: 10px;
+    padding: 0px;
+    border: 0.3px solid;
+    width: auto;
+}
+
+.order_form {
+    /* Class using for the Order page */
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: center;
+}
+
+span {
+    /* for the order page to group labels with inputs in one box */
+    padding: 5px;
+}
+
+.single_img {
+    /* class used in the order_submit page */
+    text-align: center;
+}
+
+
+
+.contact_holder {
+    /* class used in the contact page */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contact_box {
+    /* class used in the contact page */
+    width: 200px;
+    background-color:bisque;
+    color: #6F4027;
+    vertical-align: middle;
+    padding: 30px;
+    text-align: center;
+    border: #6F4027 solid 0.5px;
+    margin-left: 20px;
+}
+
+.contact_box a {
+    /* class used in the contact page */
+    text-decoration: none;
+    color: #6F4027;
+}
+
+footer {
+    margin-top: 50px;
+    border-top: #6F4027 solid 0.5px;
+}
