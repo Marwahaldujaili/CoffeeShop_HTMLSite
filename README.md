@@ -1,1 +1,1 @@
-# orientation-course-project
+# CoffeeShop website build in HTML and CSS
